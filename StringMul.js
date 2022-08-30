@@ -42,10 +42,10 @@ const strToNum = (a) =>{
         else if(a.charAt(i)=='0') {
             b=b+0
         }
-        else 
-        {
-            return console.log('error: strToNum function doesnot accept characters')
-        }
+        // else 
+        // {
+        //     return console.log('error: strToNum function doesnot accept characters')
+        // }
     }
     return(b)
 }
@@ -59,4 +59,4 @@ const zeroGenerator=(n)=>{
         return temp
     }
 }
-console.log(strToNum('1204a5'))
+console.log(strToNum('12344'))
