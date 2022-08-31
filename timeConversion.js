@@ -16,13 +16,4 @@ const timeConverter=(t)=>{
         return console.log(ans+temp);
     }
 }
-
 timeConverter('12:45:54PM')
-
-// const t= 'helloslkjd'
-// console.log(t.slice(2,4));
-
-// let t = '02'
-// let a = t.charAt(0)+t.charAt(1)
-// console.log(a);
-//console.log(parseInt(t));
